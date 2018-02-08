@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/gray_color</item>
+    </style>
+
+    <style name="subscribe_my_tip_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/subscribe_tip_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="subscribe_seperate_line">
+        <item name="android:background">@color/subscribe_seperate_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+        <item name="android:layout_marginBottom">14.0dip</item>
+    </style>
+
+    <style name="subscribe_more_tip_text" parent="@style/subscribe_my_tip_text">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+
+    <style name="loading_dialog" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 通过windowBackground可以设置背景色、背景图片、能解析出图片的XML文件等-->
+        <item name="android:windowBackground">@drawable/layer_launcher</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+</resources>

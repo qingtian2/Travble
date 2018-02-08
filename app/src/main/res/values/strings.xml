@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">出国宝</string>
+
+
+    <string name="tab_home_text">资讯</string>
+    <string name="tab_discover_text">服务</string>
+    <string name="tab_feed_text">海外邦</string>
+    <string name="tab_me_text">我的</string>
+    <string name="subscribe_more_category">更多频道</string>
+    <string name="login">登录</string>
+    <string name="login_hint_phone">请输入手机号码</string>
+    <string name="login_hint_password">请输入手机密码</string>
+    <string name="not_login">无法登录</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next_step">下一步</string>
+    <string name="register_title">注册</string>
+    <string name="register_sms">获取验证码</string>
+    <string name="register_nickname">昵称</string>
+    <string name="register_password">密码</string>
+    <string name="register_diqu">地区</string>
+    <string name="register_diqu_value">请选择</string>
+    <string name="save">保存</string>
+    <string name="search_hint">搜你关心的海外咨询</string>
+    <string name="subscribe_my_category">我的频道</string>
+    <string name="subscribe_manager_category_info_2">单击增删频道，长按拖拽排序</string>
+    <string name="category_manage">频道管理</string>
+    <string name="news_detail">新闻详情</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="splash_ad_button_text">点击查看</string>
+    <string name="splash_ad_ignore">跳过广告</string>
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_RECORD_AUDIO</string>
+
+</resources>

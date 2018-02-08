@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <cn.jzvd.JZVideoPlayerStandard
+        android:id="@+id/videoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+      />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:maxLength="8"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/down_newsFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tab_gray"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/down_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/tab_gray"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/down_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/tab_gray"
+            />
+    </LinearLayout>
+</LinearLayout>
